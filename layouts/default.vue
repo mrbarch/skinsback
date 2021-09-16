@@ -5,6 +5,16 @@
   </div>
 </template>
 
+<script>
+import Questions from '/components/Questions'
+
+export default {
+  components: {
+    Questions
+  }
+}
+</script>
+
 <style>
   @font-face {
     font-family: "SF Pro Display";
@@ -15,7 +25,7 @@
   body{
     padding: 0;
     margin: 0;
-    font-family: "SF Pro Display", sans-serif;
+    font-family: SFProDisplay, sans-serif;
     font-weight: normal;
     box-sizing: border-box;
   }

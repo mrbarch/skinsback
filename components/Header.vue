@@ -3,7 +3,7 @@
     <header>
       <img src="/logo.png" class="header__logo" alt="logo">
       <div class="header__menu">
-        <ul class="header__menu-list">
+        <ul class="header__menu-list title__h4">
           <li>Продукты <img src="/arrow.svg" alt="arrow"></li>
           <li>FAQ</li>
           <li>Контакты</li>
@@ -30,7 +30,7 @@ header {
 .header {
   &__bg {
     background-image: url("/header-bg.png");
-    height: 112vw;
+    height: 35vw;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -47,11 +47,8 @@ header {
 
       li {
         font-weight: 600;
-        font-size: .8vw;
-        line-height: 1vw;
         display: flex;
         align-items: center;
-
         img {
           padding-left: 0.4vw;
         }
@@ -59,19 +56,20 @@ header {
     }
   }
   &-lang{
-    width: 1vw;
-    height: 1vw;
+    width: 1.3vw;
+    height: 1.3vw;
   }
   &-button {
-    font-size: 0.8vw;
-    line-height: 1vw;
+    font-weight: 600;
     display: flex;
     align-items: center;
-    text-align: center;
-    padding: 0.5vw 1.1vw;
     background: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
+    width: 8.8vw;
+    height: 2vw;
+    justify-content: center;
+    letter-spacing: 0.05vw;
   }
 }
 </style>
