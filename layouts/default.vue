@@ -28,6 +28,7 @@ export default {
     font-family: SFProDisplay, sans-serif;
     font-weight: normal;
     box-sizing: border-box;
+    overflow-x: hidden
   }
   * {
     list-style-type: none;
