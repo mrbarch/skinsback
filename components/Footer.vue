@@ -126,8 +126,7 @@ footer {
   width: 100%;
   height: 11.8vw;
   position: relative;
-  top: -8.5vw;
-
+  top: -8.75vw;
 }
 
 </style>

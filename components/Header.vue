@@ -4,7 +4,7 @@
       <img src="/logo.png" class="header__logo" alt="logo">
       <div class="header__menu">
         <ul class="header__menu-list title__h4">
-          <li>Продукты <img src="/arrow.svg" alt="arrow"></li>
+          <li>Продукты <img src="/arrow-header.png" alt="arrow"></li>
           <li>FAQ</li>
           <li>Контакты</li>
           <li><img class="header-lang" src="/header-lang.png" alt="header-lang"></li>

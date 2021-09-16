@@ -40,7 +40,7 @@
 .questions {
   background-image: url(/questions-bg.png);
   background-repeat: no-repeat;
-  width: 100%;
+  width: 99.2%;
   height: 26.9vw;
   position: relative;
   top: -7vw;
